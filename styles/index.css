@@ -216,6 +216,12 @@ background-color: #4E47FF;
    margin: 0 auto;
    max-width: 1200px;
 }
+form input {
+  display: block;
+}
+textarea {
+ height: 50px;;
+}
 
 
 
