@@ -2,16 +2,20 @@
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal; 
+ 
+  font-style: normal;
 }
-
-
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   
   font-style: normal;
 }
+
+
+
+
+
 
 
 /* shared styles */
@@ -27,9 +31,7 @@ header {
   background-position:center
   
 }
-body {
-  
-}
+
 
 nav{
   display: flex;
@@ -117,6 +119,9 @@ li button:hover {
   color: white;
 background-color: #4E47FF;
 }
+.action-button:hover {
+  background-color: #3b38d9;
+}
 .action-container {
   display: flex;
   justify-content: space-between;
@@ -152,6 +157,7 @@ background-color: #4E47FF;
 .label {
   font-size: 20px;
   color:#000000;
+  opacity: 50%;
   padding-top: 0px;
   padding-bottom: 50px;
   
@@ -205,6 +211,7 @@ background-color: #4E47FF;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
   border-radius: 14px;
   padding: 24px 24px;
+  background-color: white;
  
   
   
@@ -218,10 +225,78 @@ background-color: #4E47FF;
 }
 form input {
   display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+  padding: 20px 32px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  
+
 }
 textarea {
- height: 50px;;
+ height: 50px;
+ width: 350px;
+   padding: 20px 32px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  margin-top: 71px;
+  margin-bottom: 0;
+}
+.form-button {
+  display: block;
+  width: 415px;
+  margin-top:20px;
+
+}
+form textarea {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-button {
+  padding: 12px 36px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  background-color: #4E47FF;
+}
+
+.form-button:hover {
+  background-color: #3b38d9;
+}
+.Touch {
+  font-size: 97px;
+  font-weight: bold;
+
+
+  
+}
+.form-contant label {
+  font-size: 18px;
+  font-weight: 500px;
+
+}
+main {
+  background-color: rgb(138, 133, 219, 0.05);
+}
+
+
+
+
+  
 
 
 
